@@ -1,0 +1,191 @@
+\section{The etalon}
+\subsection{Introduction}
+The etalon is an optical device made of two perfectly parallel semi-reflecting surfaces. It can be thought as a Fabry-P\'erot cavity which walls are fixed. This geometry can be implemented either with an air-based or a solid design. The first one consist in two surfaces separated by air, one of which usually can be moved via piezoelectric actuators. The second one is just made from a piece of glass (or other materials suitable for the desired application) with a partially reflecting coating covered facets (\cref{solidstate}). While the air based etalons make longer cavities, thus more precise, they are extremely delicate and cumbersome to manage, mostly because the two surfaces must be kept parallel within hundredths of wavelength. The solid state ones, on the other hand, are usually smaller and less performing, but way more robust and easier to use.
+
+Every time the impinging beam encounters one of the two optical surfaces the light is partially reflected and partially transmitted. Multiple reflections occur inside the two surfaces leading to an infinite number of rays departing from the interferometer in both the transmitted and reflected directions. Contiguous beams differ for a constant phase and this causes an interference pattern, as shown in \cref{etalonmonitor}.
+
+\begin{figure}[!h]\centering
+\begin{minipage}[t]{0.46\textwidth}\centering
+\includegraphics[width=\linewidth, height=5cm]{eps/etalon5.eps}
+\caption{Solid state etalons.}
+\label{solidstate}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.46\textwidth}\centering
+\includegraphics[width=\linewidth, height=5cm]{eps/thering.eps}
+\caption{The etalon diffraction pattern seen through our videocamera.}
+\label{etalonmonitor}
+\end{minipage}
+\end{figure}
+
+\subsection{Theoretical treatment}
+To derive the phase difference between two adjacent beams, let's begin calculating the difference in their optical paths (\cref{fig:angoli}). We thus choose two parallel beams, such as $OB$ and $CD$, and draw a wavefront perpendicular to them, $AC$. 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=.8\linewidth]{eps/angoli.eps}
+\caption{The impinging beam changes direction due to refraction index difference between the air and the glass, the angles $\theta$ and $\theta'$ being related to the refraction indices $n$ and $n'$ by Snell's law.}
+\label{fig:angoli}
+\end{figure}
+The optical path difference between $A$ and $C$ is given by
+\begin{equation}
+\overline{ABC}=\overline{AB}+\overline{BC}
+\end{equation}
+ We call $d$ the width of the etalon, and $s$ the distance traveled by the beam from one surface to the other one, so that
+\begin{equation}
+\overline{BC}=\overline{OB}\equiv s=\frac{d}{\cos\theta'}.
+\end{equation} 
+From elementary geometry considerations we get the following relationships:
+\begin{eqnarray}
+\overline{AB}&=&\overline{OB}-\overline{OA}\\
+\overline{OA}&=&\sqrt{\overline{OC}^2-\overline{AC}^2}\\
+\overline{OC}&=&2s\sin\theta'\\
+\overline{AC}&=&s\sin(2\theta')
+\end{eqnarray}
+Then we write
+\begin{eqnarray}
+\nonumber\overline{OA}&=&\sqrt{4s^2\sin^2\theta'-s^2\sin^2(2\theta')}\\
+\nonumber&=&\sqrt{4s^2\sin^2\theta'\left(1-\frac{\sin^2(2\theta')}{4\sin^2\theta'}\right)}\\
+\nonumber&=&2s\sin\theta'\sqrt{1-\cos^2\theta'}\\
+&=&2s\sin^2\theta'
+\end{eqnarray}
+Putting all together we get the optical path difference
+
+\begin{eqnarray}
+\nonumber\overline{ABC}&=&\overline{AB}+\overline{BC}\\
+\nonumber&=&\overline{OB}-\overline{OA}+\overline{BC}\\
+\nonumber&=&s-2s\sin^2\theta'+s\\
+\nonumber&=&2s(1-\sin^2\theta')\\
+\nonumber&=&2s\cos^2\theta'\\
+&=&2d\cos\theta'.
+\end{eqnarray}
+
+If the incident light has wavelength $\lambda_0$ in the vacuum and the etalon medium has refractive index $n'$, the light wave vector inside the medium is
+ \begin{equation}
+k=\frac{2\pi}{\lambda_0}n'
+\end{equation}
+and the phase shift between two adjacent rays is 
+\mate
+\Delta=k\cdot\overline{ABC}=\frac{4\pi}{\lambda_0}n'd\cos\theta'
+\label{phase}
+\atem
+
+Now, indicating by $T$ the overall etalon transmission coefficient and by $R$ the reflection coefficient correspondig to one round-trip, the total amplitude of the electric field in some point after the etalon is the sum of those of the subsequent rays
+\mate
+E_T=E_0T+E_0TRe^{i\Delta}+E_0TR^2e^{i2\Delta}+E_0TR^3e^{i3\Delta}+\dots
+\atem
+which is nothing but the geometrical series, that can be summed up ($|Re^{i\Delta}|<1$) to yield 
+\mate
+E_T=E_0T\sum_{j}\left(Re^{i\Delta}\right)^j=\frac{E_0T}{1-Re^{i\Delta}}
+\atem
+
+What we observe is actually the transmitted intensity 
+
+\mate
+I_T=|E_T|^2=|E_0|^2\frac{T^2}{|1-Re^{i\Delta}|^2}
+\atem
+
+The denominator can be rewritten as
+\begin{eqnarray}
+|1-Re^{i\Delta}|&=&(1-Re^{i\Delta})(1-Re^{-i\Delta})
+\nona 1-R(e^{i\Delta}+e^{-i\Delta})+R^2
+\nona 1-2R\cos\Delta+R^2
+\nona 1-2R\left(1-2\sin^2\frac{\Delta}{2}\right)+R^2
+\nona 1-2R+4R\sin^2\frac{\Delta}{2}+R^2
+\nona\nonumber (1-R)^2+4R\sin^2\frac{\Delta}{2}\\
+&=& (1-R)^2\left(1+\frac{4R}{(1-R)^2}\sin^2\frac{\Delta}{2}\right)
+\end{eqnarray}
+
+So that the transmitted intensity becomes
+\mate
+I_T=I_0\frac{T^2}{(1-R)^2}\frac{1}{\left(1+\frac{4R}{(1-R)^2}\sin^2\frac{\Delta}{2}\right)}
+\label{intensity}
+\atem
+
+One defines a \textit{peak constant}
+\mate
+C_{\mbox{peak}}\equiv\frac{T^2}{(1-R)^2}
+\atem
+
+which is equal to 1 for an ideal surface such that $1=R+T$. In a real surface, instead, some absorption $A$ is present, so that $1=R+T+A$. The peak constant in this case can be rewritten as
+\mate
+C_{\mbox{peak}}=\frac{(1-A-R)^2}{(1-R)^2}=\left(1-\frac{A}{1-R}\right)^2
+\atem 
+
+Furthermore we shall define the \textit{coefficient of finesse}\footnote{Not to be confused with the \textit{finesse} defined further in this discussion at pg.\ \pageref{finesse}. These two parameters are strongly correlated, though, and literature is not uniform on which of the two is to be called "finesse".}
+\mate
+F\equiv\frac{4R}{(1-R)^2}.
+\atem
+
+In the ideal etalon case we have $A\simeq0$, which implies $C_{\mbox{peak}}\simeq1$,  so that \cref{intensity} eventually reduces to
+\mate
+I_T=I_0\ \frac{1}{1+F\sin^2\frac{\Delta}{2}}
+\atem
+
+The transmitted intensity is thus given by the constant input intensity value, modulated by the so called \textit{Airy function} plotted in \cref{Airyplot}
+\mate
+\frac{I_T}{I_0}=\frac{1}{1+F\sin^2\frac{\Delta}{2}}\equiv A[F;\Delta]
+\atem
+
+\begin{figure}[htb]\centering
+\input{Airy.tex}
+\caption{The Airy function peaks when the phase shift is an integer multiple of $2\pi$. As the finesse coefficient increases, the peaks become more sharp and their position is better defined.}
+\label{Airyplot}
+\end{figure}
+\subsection{Interference pattern}
+As is clear from \cref{Airyplot}, the interference maxima take place for $\Delta=2m\pi$, where $m$ is an integer representing the order of diffraction.
+From \cref{phase} we have
+\mate
+m=\frac{2n'}{\lambda_0}d\cos\theta'
+\label{ordine}
+\atem
+Looking at \cref{intensity} we define the intensity at the maximum and at the minimum as
+\begin{eqnarray}
+I_{\mbox{max}}&=&\frac{I_T[\Delta=2m\pi]}{I_{0}}=C_{\mbox{peak}}=\frac{T^2}{(1-R)^2}\\
+I_{\mbox{min}}&=&\frac{I_T[\Delta=(2m+1)\pi]}{I_{0}}=\frac{T^2}{(1-R)^2+4R}=\frac{T^2}{(1+R)^2}
+\end{eqnarray}
+We shall now define a \textit{contrast factor}
+\mate
+\mathcal{C}\equiv\frac{I_{\mbox{max}}}{I_{\mbox{min}}}=\left(\frac{1+R}{1-R}\right)^2=1+F
+\atem
+which is also a useful parameter in the characterization of an etalon.
+
+To describe how defined are the peaks, we have to consider their full width at half maximum (FWHM). Thus we observe the points around a maximum whose intensity is $I_{T}=I_{\mbox{max}}/2$. They have a phase shift 
+\mate
+\Delta=2m\pi\pm\frac{\varepsilon}{2}
+\atem
+
+where $\varepsilon$ is now the FWHM expressed as a phase. Putting this into \cref{intensity} we get the identity
+
+$$\frac{1}{2}=\frac{1}{1+F\sin^2\frac{\varepsilon}{4}}\quad;$$ $$F\sin^2\frac{\varepsilon}{4}=1$$
+
+If now we approximate $\sin\frac{\varepsilon}{4}\simeq\frac{\varepsilon}{4}$ we get the phase expression for the FWHM, as a function of the coefficient of finesse $F$
+\mate
+\varepsilon=\frac{4}{\sqrt{F}}
+\atem
+Since two contiguous maxima are separated by a phase of $2\pi$, we can do the ratio between the peaks separation and their width, getting a very important parameter which is called the \textit{finesse} of the etalon
+\mate
+\mathcal{F}\equiv\frac{2\pi}{\varepsilon}=\frac{\pi}{2}\sqrt{F}=\frac{\pi\sqrt{R}}{1-R}
+\label{finesse}
+\atem
+\subsection{Etalon as a spectroscope}
+It is possible to build a direct relationship between the angular separation of the rings and the wavelength $\lambda_0$ of the incident light.
+We put ourself under the approximation of nearly perpendicular incident light, so that
+$$\sin\theta'\simeq\theta'$$$$\sin\theta\simeq\theta$$
+Snell's law then simplifies to
+$$\frac{\sin\theta'}{n'}=\frac{\sin\theta}{n}\quad\Rightarrow\quad\frac{\theta'}{n'}=\frac{\theta}{n}$$
+The small angles approximation also implies
+\begin{eqnarray} 
+\nonumber\cos\theta'&\simeq&1-\frac{\theta'^2}{2}\\&\simeq&1-\left(\frac{n'}{n}\right)^2\frac{\theta^2}{2}\nonumber
+\end{eqnarray}
+These approximations being valid, we recall \cref{ordine}
+$$m=\frac{2n'}{\lambda_0}d\cos\theta'\quad\Rightarrow\quad m=\frac{2n'}{\lambda_0}d\left(1-\left(\frac{n'}{n}\right)^2\frac{\theta^2}{2}\right)$$
+Inverting this one we find
+NON SI CAPISCE DA DOVE LA TIRA FUORI E COME, CI SONO CONTI OSCURI [$\dots$]
+The angle for the p\textit{th} order is
+\mate
+\theta_p=\frac{1}{n}\sqrt{\frac{n'\lambda_0}{d}}\sqrt{p-1+e}
+\atem
+and if we focus the rings onto a screen with a convergent lens, of focal ratio $f$, the diameter of the bright ring is
+\mate
+D^2_p=(2f\theta_p)^2=\frac{4n'\lambda_0f^2}{n^2d}(p-1+e)
+\atem

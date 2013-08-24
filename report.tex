@@ -1,39 +1,45 @@
-\documentclass[a4paper,11pt]{article}
+\documentclass[a4paper, 11pt]{article}
 
 \usepackage[utf8x]{inputenc}
 \usepackage[english]{babel}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage[dvips]{graphicx}
-%\usepackage{floatflt}
-%\usepackage{psfrag}
+\usepackage{floatflt}
+\usepackage{psfrag}
 \usepackage{subfigure}
 \usepackage{booktabs}
-\usepackage{ctable}
+%\usepackage{ctable}
 \usepackage{siunitx}
-\usepackage[a4paper,centering,margin=1.3in,text={7in,10in},bindingoffset=0mm]{geometry}
+\usepackage[a4paper, centering,margin=1.3in, %text={7in,10in},
+ bindingoffset=0mm]{geometry}
 \usepackage{amsmath}
 \usepackage{textcomp}
 \usepackage[version=3]{mhchem}
 \usepackage{multicol}
 \usepackage{hyperref}
-\usepackage{epstopdf}
-
+\usepackage[nameinlink, capitalize]{cleveref}
+%\usepackage{epstopdf}
 \usepackage[usenames,dvipsnames]{pstricks}
 \usepackage{epsfig}
-\usepackage{pst-grad} %
-\title{Oxygen Photoacoustic effect using an external cavity diode laser}
-\author{Michele Valentini, Zeno Tornasi, Henry Widodo}
-
-
-
+\usepackage{pst-grad}
 \usepackage{pst-plot} % For axes
+\usepackage[labelfont=bf, font={small}]{caption}[2004/7/16]
+\usepackage{color}
+
+\newcommand{\mate}{\begin{equation}}
+\newcommand{\atem}{\end{equation}}
+\newcommand{\nona}{\nonumber\\&=&}
+\newcommand{\subbo}{\textit}
+
+
+\title{Photoacoustic observation of the HOWMANYnm absorption line in O$_2$}
+\author{Zeno Tornasi, Michele Valentini, Henry Widodo}
 
 \begin{document}
-\maketitle
-\newpage
-\tableofcontents
-\newpage
+\maketitle\newpage
+
+\tableofcontents\newpage
 
 \section*{Introduction}
 \addcontentsline{toc}{section}{Introduction}
@@ -67,11 +73,9 @@ We used an external cavity laser device, formed by the following elements:
 
 \newpage
 \appendix
-\section{The etalon}
-The etalon is an optical device made of two perfectly parallel semi-reflecting surfaces. It can be thought as a Fabry-P\'erot cavity, which walls are fixed.
+
+\input{ECDL.tex}
+
+\newpage\input{etalon.tex}
 
 \end{document}
-
- The oxygen absorbs the light and heats up locally, giving rise to pressure waves. By chopping the laser at a chamber proper frequency we enhance resonant acoustic waves and make them become a sound strong enough to be detected by the microphones.
-
-
