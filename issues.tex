@@ -1,0 +1,50 @@
+\chapter{Experimental setup and hardware improvements} 
+Most of our efforts during the experiment were due to the difficulty of finding strong and stable absorption peaks and tuning our laser on such peaks.
+The issues encountered during this process can be grouped in these main categories:
+\begin{enumerate} 
+\item aligning the grating, putting it near the laser in order to minimize the sensitivity to environmental noise sources such as temperature variations and vibrations.
+\item focusing the laser beam in the audio cavity without touching the walls.
+\item controlling and measuring the laser frequency.
+\end{enumerate}
+Understanding the behaviour of our apparatus under these aspects was important in order to face the main problem of distinguishing the shape of the absorption peaks from the actually measured peaks, as the latter were distorted by several factors such as mode-hopping and the low-pass filtering of the lock-in amplifier. The subject will be fully discussed in \cref{shapeaks}.
+
+\medskip
+The following sections of this chapter will describe how we faced the previously listed experimental challenges.
+
+	\section{Building and optimizing the external cavity laser}
+The external laser cavity was described in \cref{lasersource}, while the some theoretical principles about the Littrow configuration ECDL are lined up in \cref{ECDL}. Optimizing this part of apparatus was one of the tasks that required more attention. We ended up in developing the following ideas:
+\begin{itemize}
+\item We put the grating as near as possible to the laser diode, in order to minimize the sensitivity of the cavity to external factors such as vibrations and cavity length changes due to temperature fluctuations.
+\item In order to align as much as possible the first order reflection beam back in the laser, we set the laser current under the original threshold current, i.e. without any external cavity, and adjusted the micrometric screws until we had laser emission at the lower threshold current possible. This procedure also allowed us to obtain the maximum optical power output from the laser. 
+\item During the early development of the experimental apparatus the convergent lens included in the LD case was a bit misplaced, so the outgoing beam was not parallel. We didn't know the case could be opened, and we thought we would have had to deal with the beam as it was. Thus we added a small divergent lens between the laser and the grating, in order to make the beam as parallel as possible. This was intended to avoid power losses in the feedback beam and loss of resolution of the grating. (The one-to-one correspondence between angle and diffracted frequency, described in \cref{gratingtheory}, is valid only for a parallel incident wave). Plus we added several other lenses in various points of the apparatus to focus the light and make it parallel. Only later we discovered the possibility of adjusting the position of the first lens (that internal to the case). Fixing that one made unnecessary any other lens in the apparatus.
+\end{itemize}
+
+	\section{Focusing the laser in the acoustic chamber}\label{focusing}
+The laser beam was not allowed to touch the walls of the chamber, otherwise it would be partially absorbed by them heating up the chamber instead of the gas. This of course could spoil the measurement, generating signal far from the actual absorption wavelength of the oxygen. To avoid this, it was important to perfectly align the beam into the chamber, as well as to make it parallel to avoid a divergence. Moreover, since the beam had not a circular section, we used a slit to cut the sides which could more easily hit the walls. The price was a loss of optical power, of course, but it was worth it to minimize the risk of touching walls.
+
+\medskip
+
+In order to maximize the measured signal we also put a mirror after the chamber which reflected the beam back in the chamber. The alignment of the backwards beam was even more tricky: if we directed it back exactly on the same path of the first beam, it would return into the laser and the whole optical path would act as a second, much longer external cavity. In fact, the two interfered leading to uncontrollable suppression or enhancement of the optical power, as well as driving the laser out of its current lasing mode. To use also the secondary beam, then, it was necessary to align it in such a way that neither did it diverge or touch the walls of the chamber, nor did it collimate with the incoming beam.
+
+	\section{Tuning the laser emission} 
+Let's define the \textit{piezoelectric tunability}, to indicate how much we could tune the output frequency of our ECDL by moving the piezoelectric actuators without having the laser to change mode (mode hopping was a serious issue we faced). In order to measure this factor the wavelength resolution of the spectrometer was not sufficient, so we used the etalon combined with the video camera, as described in \cref{referencearm}. Then we made the measurement according to the following procedure:
+\begin{enumerate}
+\item We measured the distance, in ms of the PAL signal, between the first and the second emission orders (rings) of a mode. This is proportional to the free spectral range of the etalon, as shown in \cref{etalonspec}.
+\item We moved the piezoelectric actuators of the maximum amount possible without changing mode, and measured the shift in the position of the first order ring between the two extremal configurations.
+\item Comparing this position shift with the FSR, we were able to estimate the piezoelectric tunability.
+\end{enumerate}
+The estimation we found depended on the laser mode we were trying to tune and ranged from about 2 to 3.5 GHz, with an uncertainty of about 1 GHz estimated from the etalon diffraction peak width.
+
+\medskip
+During these measurements we noticed also that the width of the diffraction peaks emitted by the etalon do not correspond to the theoretical 250 MHz calculated from the etalon specifications, but rather to a FWHM of approximately 1-3 GHz (almost the same as the piezoelectric tunability). Several factors could contribute to broaden the width of the peak beyond the original declared performance of the etalon. They are hereafter exposed in order of the importance we assigned to them.
+\begin{itemize}
+\item The resolution of the camera (the time resolution of the oscilloscope is negligible with respect to the actual width of the ring visualized).
+\item The part of the circle we look at (as can be seen by \cref{etalonmonitor} the width of the interference pattern is noisy, thus not perfectly constant around the circle).
+\item Dirt and imperfections on the etalon surface.
+\item Misalignment and divergence of the impinging beam. An ideal etalon produces zero-width lines only when illuminated by a non-diverging beam.
+\item The output bandwidth of the laser, reported in literature to be some tens of MHz, after having been tuned with a ECDL\footnote{L. Ricci et al., \textit{\textquotedblleft A compact grating-stabilized diode laser system for atomic physics\textquotedblright}, Optical Communications 117 (1995) 541-549}.
+\item The error in choosing what pixel line to take for the measurement. We could observe only one horizontal line of the screen each measurement. Any pixel line which is not exactly lying on the diameter of the diffraction ring would bring a larger white (illuminated) portion than the actual minimum width.
+\end{itemize}
+As anticipated before, in controlling the laser emission with the ECDL we faced some big issues with instability and mode hopping. Probably they were due to imperfections in the Littrow configuration ECDL. In principle, the grating should be set in such a way that, by moving the piezoelectric actuators, it only undergoes a rotation without changing the position of the point where the light impinges on it (which actually neither is a point, as a real diode emission has always an extended shape.)
+
+If the aforementioned condition is not fulfilled, that is, if the point where the light hits the grating doesn't lie on the axis of the rotation, then a movement in the actuators causes not only a change in the frequency that is fed back to the laser diode, but also a variation in the length of the external cavity.

@@ -1,0 +1,37 @@
+\select@language {english}
+\contentsline {chapter}{Introduction}{3}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Description of the apparatus}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}General overview}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}The laser source}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}The acoustic chamber}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}Reference arm}{6}{section.1.4}
+\contentsline {chapter}{\numberline {2}Experimental setup and hardware improvements}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Building and optimizing the external cavity laser}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Focusing the laser in the acoustic chamber}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Tuning the laser emission}{8}{section.2.3}
+\contentsline {chapter}{\numberline {3}Measurements and results}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}General remarks}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}Finding chamber resonances}{10}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Open chamber measurement}{10}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Closed chamber measurement}{12}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Looking for the \mhchem@ce@xiii {\noexpand O\noexpand 2} peaks (UNDER CONSTRUCTION)}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Shape of the peaks (UNDER CONSTRUCTION)}{12}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Single full sweeps}{13}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Multiple full sweeps}{17}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Multiple focused sweeps}{21}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Laser shit (UNDER CONSTRUCTION)}{22}{section.3.5}
+\contentsline {chapter}{APPENDIX}{24}{figure.caption.15}
+\contentsline {chapter}{\numberline {A}Extended Cavity Diode Laser (ECDL)}{24}{appendix.A}
+\contentsline {section}{\numberline {A.1}Introduction to LD tuning}{24}{section.A.1}
+\contentsline {section}{\numberline {A.2}Diffraction theory for a grating}{25}{section.A.2}
+\contentsline {section}{\numberline {A.3}Littrow configuration ECDL}{25}{section.A.3}
+\contentsline {section}{\numberline {A.4}Main sources of noise in a ECDL}{27}{section.A.4}
+\contentsline {chapter}{\numberline {B}The lock-in amplifier}{30}{appendix.B}
+\contentsline {section}{\numberline {B.1}Basic theory}{30}{section.B.1}
+\contentsline {section}{\numberline {B.2}Dual lock-in amplifier}{31}{section.B.2}
+\contentsline {section}{\numberline {B.3}Low-pass filter}{32}{section.B.3}
+\contentsline {chapter}{\numberline {C}The etalon}{34}{appendix.C}
+\contentsline {section}{\numberline {C.1}Introduction}{34}{section.C.1}
+\contentsline {section}{\numberline {C.2}Theoretical treatment}{35}{section.C.2}
+\contentsline {section}{\numberline {C.3}Interference pattern}{38}{section.C.3}
+\contentsline {section}{\numberline {C.4}Etalon as a spectroscope (UNDER CONSTRUCTION)}{39}{section.C.4}
