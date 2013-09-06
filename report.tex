@@ -26,6 +26,19 @@
 \usepackage[labelfont=bf, font={small}]{caption}[2004/7/16]
 \usepackage{color}
 \usepackage{lscape}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}\addtolength{\headwidth}{20pt}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\space#1}{}}
+\cfoot{}
+\rhead[\fancyplain{}{\bfseries\leftmark}]{\fancyplain{}
+{\bfseries\thepage}}
+\lhead[\fancyplain{}{\bfseries\thepage}]{\fancyplain{}
+{\bfseries\rightmark}}
+
+\linespread{1.2}
 
 \newcommand{\mate}{\begin{equation}}
 \newcommand{\atem}{\end{equation}}
@@ -33,6 +46,7 @@
 \newcommand{\mai}[1]{\mbox{\footnotesize{\scshape{#1}}}}
 
 \newcommand{\foto}{true}%true=ti conviene che sia true, false=vatti a prendere una pizza finché compila
+\newcommand{\cel}{ $^{\circ}$C}
 
 \title{Photoacoustic observation of \texorpdfstring{\ce{O2}}{} absorption peaks at visible frequencies.}
 \author{Zeno Tornasi, Michele Valentini, Henry Widodo}

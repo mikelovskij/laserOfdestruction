@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2011.12.12)  5 SEP 2013 02:32
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2011.12.12)  6 SEP 2013 11:17
 entering extended mode
 **report.tex
 
@@ -1166,30 +1166,41 @@ Package caption Info: subfigure package is loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip85
+\f@ncyO@elh=\skip86
+\f@ncyO@erh=\skip87
+\f@ncyO@olh=\skip88
+\f@ncyO@orh=\skip89
+\f@ncyO@elf=\skip90
+\f@ncyO@erf=\skip91
+\f@ncyO@olf=\skip92
+\f@ncyO@orf=\skip93
+)
 ("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
 nce\reportex\report.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\unicode\ucsencs.def"
 File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
 )
@@ -1239,7 +1250,7 @@ File: siunitx-binary.cfg 2012/03/23 v2.4l siunitx: Binary units
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 54.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
@@ -1248,9 +1259,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
 
 ("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
 nce\reportex\report.out")
@@ -1282,7 +1293,7 @@ Requested font "cmex8" at 8.0pt
  -> cmex8
 Requested font "cmex7" at 6.0pt
  -> cmex7
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -1293,7 +1304,7 @@ Requested font "msam10" at 8.0pt
  -> msam10
 Requested font "msam7" at 6.0pt
  -> msam7
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -1357,9 +1368,9 @@ Requested font "msbm10" at 12.0pt
  -> msbm10
 Requested font "msbm10" at 10.0pt
  -> msbm10
-LaTeX Info: Redefining \bond on input line 42.
-LaTeX Info: Redefining \dbond on input line 42.
-LaTeX Info: Redefining \tbond on input line 42.
+LaTeX Info: Redefining \bond on input line 56.
+LaTeX Info: Redefining \dbond on input line 56.
+LaTeX Info: Redefining \tbond on input line 56.
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
 File: se-ascii-print.def 2010/03/01 v1.8 stringenc: Printable ASCII characters
@@ -1385,7 +1396,14 @@ LaTeX Info: Redefining \tbond on input line 17.
 \tf@toc=\write5
 
 ("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
-nce\reportex\intro.tex" [2])
+nce\reportex\intro.tex"
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2])
 ("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
 nce\reportex\description.tex" [3
 
@@ -1399,14 +1417,8 @@ Requested font "cmr12" at 14.4pt
  -> cmr12
 Requested font "cmbx12" at 14.4pt
  -> cmbx12
-File: eps/laser_diagram.eps Graphic file (type eps)
-<eps/laser_diagram.eps>
 Requested font "cmbx10" at 10.0pt
  -> cmbx10
-File: eps/instrument.eps Graphic file (type eps)
- <eps/instrument.eps> [4
-
-]
 Requested font "tcrm1095" at 10.95pt
  -> tcrm1095
 Requested font "cmr9" at 9.0pt
@@ -1442,22 +1454,66 @@ Requested font "tcrm0800" at 8.0pt
 LaTeX Info: Redefining \bond on input line 32.
 LaTeX Info: Redefining \dbond on input line 32.
 LaTeX Info: Redefining \tbond on input line 32.
- [5]
+[4
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
 LaTeX Info: Redefining \bond on input line 39.
 LaTeX Info: Redefining \dbond on input line 39.
 LaTeX Info: Redefining \tbond on input line 39.
-)
-("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
-nce\reportex\issues.tex" [6]
-Chapter 2.
-[7
 
-] [8]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6])
+("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
+nce\reportex\issues.tex"
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+Chapter 2.
+[8
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
 Requested font "cmti9" at 9.0pt
  -> cmti9
-)
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10])
 ("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
-nce\reportex\measurements.tex" [9]
+nce\reportex\measurements.tex"
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
 Chapter 3.
 LaTeX Info: Redefining \bond on input line 7.
 LaTeX Info: Redefining \dbond on input line 7.
@@ -1468,17 +1524,23 @@ Requested font "cmbx12" at 12.0pt
 ("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
 nce\reportex\chamber.tex"
 File: chamber.eps Graphic file (type eps)
- <chamber.eps>)
+ <chamber.eps>) [12
+
+]
 LaTeX Info: Redefining \bond on input line 18.
 LaTeX Info: Redefining \dbond on input line 18.
 LaTeX Info: Redefining \tbond on input line 18.
- [10
 
-]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
 LaTeX Info: Redefining \bond on input line 28.
 LaTeX Info: Redefining \dbond on input line 28.
 LaTeX Info: Redefining \tbond on input line 28.
- [11]
 Requested font "cmcsc10" at 9.0pt
  -> cmcsc10
 LaTeX Info: Redefining \bond on input line 30.
@@ -1516,42 +1578,111 @@ Requested font "cmbx7" at 7.0pt
 LaTeX Info: Redefining \bond on input line 33.
 LaTeX Info: Redefining \dbond on input line 33.
 LaTeX Info: Redefining \tbond on input line 33.
- [12]
-File: eps/Graph6.eps Graphic file (type eps)
- <eps/Graph6.eps>
-File: eps/Graph7.eps Graphic file (type eps)
+LaTeX Info: Redefining \bond on input line 44.
+LaTeX Info: Redefining \dbond on input line 44.
+LaTeX Info: Redefining \tbond on input line 44.
+Requested font "cmbx8" at 8.0pt
+ -> cmbx8
+Requested font "cmbx6" at 6.0pt
+ -> cmbx6
 
-<eps/Graph7.eps>
 
-LaTeX Warning: Float too large for page by 5.59987pt on input line 69.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-File: eps/Graph10.eps Graphic file (type eps)
-<eps/Graph10.eps>
-File: eps/Graph10magnified.eps Graphic file (type eps)
- <eps/Graph10magnified.eps>
+[14]
 
-LaTeX Warning: Float too large for page by 17.61302pt on input line 75.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-File: eps/periodicityofhops.eps Graphic file (type eps)
-<eps/periodicityofhops.eps> [13] [14] [15] [16] [17]
-File: eps/3sweepsmatching.eps Graphic file (type eps)
- <eps/3sweepsmatching.eps>
+[15]
 
-LaTeX Warning: Float too large for page by 46.0pt on input line 122.
+LaTeX Warning: Float too large for page by 18.23965pt on input line 69.
+
+
+LaTeX Warning: Float too large for page by 32.65277pt on input line 75.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [18]
-File: eps/3mismatching.eps Graphic file (type eps)
- <eps/3mismatching.eps>
 
-LaTeX Warning: Float too large for page by 46.0pt on input line 131.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
 [19]
-File: eps/7sweeps.eps Graphic file (type eps)
- <eps/7sweeps.eps>
 
-LaTeX Warning: Float too large for page by 34.0pt on input line 139.
+LaTeX Warning: Float too large for page by 53.19987pt on input line 122.
 
-[20] [21
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+
+LaTeX Warning: Float too large for page by 53.19987pt on input line 131.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+
+LaTeX Warning: Float too large for page by 38.79991pt on input line 139.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]
+
+LaTeX Warning: Float too large for page by 3.84917pt on input line 153.
+
+
+LaTeX Warning: Reference `factorsinfluencingtheshapeofthepeaks' on page 1 undef
+ined on input line 155.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
+[][]
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23
 
 
 
@@ -1559,83 +1690,200 @@ LaTeX Warning: Float too large for page by 34.0pt on input line 139.
 
 
 ]
-Overfull \hbox (7.82687pt too wide) in paragraph at lines 203--207
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+Overfull \hbox (7.82687pt too wide) in paragraph at lines 199--203
 []\OT1/cmr/m/n/10.95 ---FREE LASER DRIFT----MAGARILOMETTODOPO[[ DA FA-REEEEGEGE
 GE-
  []
 
-File: eps/enlarged.eps Graphic file (type eps)
-<eps/enlarged.eps>
-File: eps/nighttime.eps Graphic file (type eps)
- <eps/nighttime.eps>) [22] [23]
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
 ("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
 nce\reportex\ECDL.tex"
 Appendix A.
-[24
+[28
 
 
 ]
 Missing character: There is no θ in font cmr10!
 Missing character: There is no λ in font cmmi10!
-File: eps/littrow1.eps Graphic file (type eps)
- <eps/littrow1.eps>
-File: eps/littrow2.eps Graphic file (type eps)
- <eps/littrow2.eps> [25]
-File: eps/littrow3a.eps Graphic file (type eps)
- <eps/littrow3a.eps>
-File: eps/littrow3b.eps Graphic file (type eps)
 
-<eps/littrow3b.eps> [26]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
 Missing character: There is no – in font cmr10!
-File: eps/littrow4.eps Graphic file (type eps)
- <eps/littrow4.eps> [27] [28])
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32])
 ("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
-nce\reportex\lockin.tex" [29]
+nce\reportex\lockin.tex"
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
 Appendix B.
-File: eps/lockin1.eps Graphic file (type eps)
-<eps/lockin1.eps> [30
+[35
 
 ]
-File: eps/lockin2.eps Graphic file (type eps)
- <eps/lockin2.eps> [31]
-File: eps/lockin3.eps Graphic file (type eps)
- <eps/lockin3.eps>)
-("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
-nce\reportex\etalon.tex" [32] [33]
-Appendix C.
-File: eps/etalon5.eps Graphic file (type eps)
-<eps/etalon5.eps>
-File: eps/thering.eps Graphic file (type eps)
- <eps/thering.eps>
-File: eps/angoli.eps Graphic file (type eps)
- <eps/angoli.eps> [34
 
-] [35] [36]
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36])
+("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
+nce\reportex\etalon.tex"
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38]
+Appendix C.
+[39
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
 ("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
 nce\reportex\Airy.tex"
 File: eps/Airy.eps Graphic file (type eps)
- <eps/Airy.eps>) [37] [38]
+ <eps/Airy.eps>)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43]
 Overfull \hbox (14.98749pt too wide) in paragraph at lines 169--169
 []\OT1/cmr/bx/n/14.4 Etalon as a spec-tro-scope (UN-DER CON-STRUC-TION) 
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
- [39]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 
 ("C:\Users\zeno\Desktop\V anno\Experimental Physics\Photoacoustic final experie
 nce\reportex\report.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 54.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 68.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 21948 strings out of 429156
- 393756 string characters out of 3168942
- 506598 words of memory out of 3000000
- 24852 multiletter control sequences out of 15000+200000
- 25308 words of font info for 98 fonts, out of 3000000 for 9000
+ 22073 strings out of 429156
+ 394880 string characters out of 3168942
+ 509557 words of memory out of 3000000
+ 24969 multiletter control sequences out of 15000+200000
+ 25929 words of font info for 100 fonts, out of 3000000 for 9000
  786 hyphenation exceptions out of 8191
- 52i,16n,92p,3583b,869s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,24n,92p,3583b,881s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on report.pdf (40 pages).
+Output written on report.pdf (46 pages).

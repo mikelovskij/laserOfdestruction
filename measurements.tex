@@ -126,7 +126,7 @@ on shorter multiple sweeps around a single absorption peak.
 \begin{figure}[!bhtp]\centering
 \includegraphics[height=\textheight, draft=\foto]{eps/3mismatching.eps}
 \caption{Despite these measurements are taken faster then usual (5 minutes each 0-150 V sweep) there is a big mismatch between the three sweeps. This mismatch is more evident in the magnitude vs voltage projection, where the peaks seem to be double-peaks. The time projections shows instead that they are
-single peaks. Laser parameters: 27,68 $^{\circ}$C; 80,01 mA}
+single peaks. Laser parameters: 27,68\cel; 80,01 mA}
 \label{3missweep}
 \end{figure}\vfill
 \end{landscape}
@@ -134,39 +134,35 @@ single peaks. Laser parameters: 27,68 $^{\circ}$C; 80,01 mA}
 \begin{landscape}
 \begin{figure}[!bhtp]\centering
 \includegraphics[height=\textheight, draft=\foto]{eps/7sweeps.eps}
-\caption{In this measurement it is shown not only the fact that the peaks shift in voltage with time but can completely fade away after some minutes. Laser parameters: 25,03 $^{\circ}$C; 80,01 mA}
+\caption{In this measurement it is shown not only the fact that the peaks shift in voltage with time but can completely fade away after some minutes. Laser parameters: 25,03\cel; 80,01 mA}
 \label{7sweeps}
 \end{figure}\vfill
 \end{landscape}
   
 		\subsection{Multiple focused sweeps}\label{focus}
-Another way(methodology? ) we used to better study both the shape of an absorption peak and also the evolution caused by external factors was doing repeated single-peak sweeps instead of 
-full 0 to 150 Volts ones. In  this kind of measurement it is also possible to use uncontrolled evolution at our advantage, since sometimes it allowed 
-to increase the "tunability range" befora a mode hopping. 
-In the next two examples we see how repeating a measurement of the same peak changed the part of the peak we were able to see. In the first graphic the part of the peak
-we were able to see decreased after each sweep, in the second the scanned part of the peak instead increased thanks to the "uncontrolled time evolution".
+Another measurement methodology we used exploited repeated single-peak sweeps instead of 
+full 0 to 150 V. This was intended to better study both the absorption peak shape and the evolution caused by external factors. In this kind of measurements it is also possible to use uncontrolled evolution at our advantage, since sometimes it allowed to increase the tunability range before a mode hopping. \cref{multisweep} shows how repeating a measurement of the same peak changed the part of the peak we were able to see. In \cref{multisweep1} the part of the peak we were able to see decreased after each sweep, while in \cref{multisweep2} the scanned part of the peak instead increased \textquotedblleft thanks\textquotedblright to the uncontrolled time evolution.
 In both of these examples we see that we could not usually measure the "tunability range" using the spectrometer data, but still we are able to see that 
 the voltage to laser mode dependence/pattern changes with time. 
 
+\begin{figure}[!phtb]\centering
+\subfigure[Laser parameters: 27,68\cel; 80,01 mA\label{multisweep1}]{\includegraphics[width=\linewidth, height=10cm, draft=\foto]{eps/multisweeps1.eps}}
+\subfigure[Laser parameters: 25.03\cel; 80,01 mA\label{multisweep2}]{\includegraphics[width=\linewidth, height=10cm, draft=\foto]{eps/multisweeps2.eps}}
+\caption{The resonance frequency shifts after every measurement, changing the part of the peak (in black) we were able to scan and decreasing the maximum measurable intensity.}
+\label{multisweep}
+\end{figure}
 
-GRAFO multisweep1
-caption: in this graphic we can see that the resonance frequency shifts after every measurement changing the part of the peak (in black) we were able to scan and decreasing the maximum measurable intensity.
-27,68 C         80,01  mA
+In order to better study how the voltage to wavelength output changed with time we plotted all the sweeps of \cref{multisweep1} on a voltage/intensity graphic, thus getting \cref{nonshiftedpeaks}, and subsequently shifted them by the voltage required to match the part of the peak which most likely corrisponded to the oxygen absorption peak (see \cref{factorsinfluencingtheshapeofthepeaks}), getting \cref{shiftedpeaks} as result.
 
-Grafo multisweep2
-caption: in this graphic we can see that the resonance frequency shifts after every measurement changing the part of the peak (in black) we were able to scan and increasing the maximum intensity measurable.
-25.03 C         80,01  mA
+\begin{figure}
+\subfigure[\label{nonshiftedpeaks}]{\includegraphics[width=\linewidth, height=10cm, draft=\foto]{eps/multiunmatched.eps}}
+\subfigure[\label{shiftedpeaks}]{\includegraphics[width=\linewidth, height=10cm, draft=\foto]{eps/multiunmatched.eps}}
+\caption{}
+\label{grafishifti}
+\end{figure}
 
-
-In order to better study how the voltage to wavelenght output changed with time we plotted all the sweeps of the /ref multisweep1 measurement on a
-voltage/intensity graphic and subsequently shifted them of the voltage required to match the part of the peak which most likely corrisponded to the oxygen absorption 
-peak (see /ref factorsinfluencingtheshapeofthepeaks paragraph) 
-
-GRAFO nonshiftedpeaks
-
-GRAFO shiftedpeaks
 In order to make the edges of the peak match, we had to shift the various peaks of the values listed in the next table
-\begin{table}[htbp]
+\begin{table}[!htbp]
 \begin{tabular}{|c|c|c|}
 \hline
 N of peak & Shift [V] & Delta Shift [V] \\ \hline
