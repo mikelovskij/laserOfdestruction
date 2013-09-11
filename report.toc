@@ -14,24 +14,31 @@
 \contentsline {section}{\numberline {3.2}Finding chamber resonances}{12}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Open chamber measurement}{12}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Closed chamber measurement}{14}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Looking for the \mhchem@ce@xiii {\noexpand O\noexpand 2} peaks (UNDER CONSTRUCTION)}{14}{section.3.3}
-\contentsline {section}{\numberline {3.4}Shape of the peaks (UNDER CONSTRUCTION)}{15}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Single full sweeps}{15}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Multiple full sweeps}{19}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Multiple focused sweeps}{23}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Laser shit (UNDER CONSTRUCTION)}{26}{section.3.5}
-\contentsline {chapter}{APPENDIX}{28}{figure.caption.17}
-\contentsline {chapter}{\numberline {A}Extended Cavity Diode Laser (ECDL)}{28}{appendix.A}
-\contentsline {section}{\numberline {A.1}Introduction to LD tuning}{28}{section.A.1}
-\contentsline {section}{\numberline {A.2}Diffraction theory for a grating}{29}{section.A.2}
-\contentsline {section}{\numberline {A.3}Littrow configuration ECDL}{30}{section.A.3}
-\contentsline {section}{\numberline {A.4}Main sources of noise in a ECDL}{31}{section.A.4}
-\contentsline {chapter}{\numberline {B}The lock-in amplifier}{35}{appendix.B}
-\contentsline {section}{\numberline {B.1}Basic theory}{35}{section.B.1}
-\contentsline {section}{\numberline {B.2}Dual lock-in amplifier}{36}{section.B.2}
-\contentsline {section}{\numberline {B.3}Low-pass filter}{37}{section.B.3}
-\contentsline {chapter}{\numberline {C}The etalon}{39}{appendix.C}
-\contentsline {section}{\numberline {C.1}Introduction}{39}{section.C.1}
-\contentsline {section}{\numberline {C.2}Theoretical treatment}{39}{section.C.2}
-\contentsline {section}{\numberline {C.3}Interference pattern}{43}{section.C.3}
-\contentsline {section}{\numberline {C.4}Etalon as a spectroscope (UNDER CONSTRUCTION)}{44}{section.C.4}
+\contentsline {section}{\numberline {3.3}Looking for the \mhchem@ce@xiii {\noexpand O\noexpand 2} peaks}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}Shape of the peaks}{15}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Factors influencing the shape of the peaks}{16}{subsection.3.4.1}
+\contentsline {subsubsection}{Mode hopping}{16}{section*.7}
+\contentsline {subsubsection}{Multimodes}{16}{section*.8}
+\contentsline {subsubsection}{Noise and lock-in low pass filter}{18}{section*.10}
+\contentsline {subsection}{\numberline {3.4.2}Single full sweeps}{18}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Multiple full sweeps}{18}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Multiple focused sweeps}{26}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Free laser drift analysis}{29}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Free evolution}{29}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Heating- and cooling-induced evolution}{30}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Tunability change measurement}{30}{subsection.3.5.3}
+\contentsline {chapter}{APPENDIX}{34}{table.caption.25}
+\contentsline {chapter}{\numberline {A}Extended Cavity Diode Laser (ECDL)}{34}{appendix.A}
+\contentsline {section}{\numberline {A.1}Introduction to LD tuning}{34}{section.A.1}
+\contentsline {section}{\numberline {A.2}Diffraction theory for a grating}{35}{section.A.2}
+\contentsline {section}{\numberline {A.3}Littrow configuration ECDL}{36}{section.A.3}
+\contentsline {section}{\numberline {A.4}Main sources of noise in a ECDL}{38}{section.A.4}
+\contentsline {chapter}{\numberline {B}The lock-in amplifier}{40}{appendix.B}
+\contentsline {section}{\numberline {B.1}Basic theory}{40}{section.B.1}
+\contentsline {section}{\numberline {B.2}Dual lock-in amplifier}{41}{section.B.2}
+\contentsline {section}{\numberline {B.3}Low-pass filter}{42}{section.B.3}
+\contentsline {chapter}{\numberline {C}Etalon}{44}{appendix.C}
+\contentsline {section}{\numberline {C.1}Introduction}{44}{section.C.1}
+\contentsline {section}{\numberline {C.2}Theoretical treatment}{44}{section.C.2}
+\contentsline {section}{\numberline {C.3}Interference pattern}{48}{section.C.3}
+\contentsline {section}{\numberline {C.4}Etalon as a spectroscope}{49}{section.C.4}

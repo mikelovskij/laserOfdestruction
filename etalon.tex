@@ -1,4 +1,4 @@
-\chapter{The etalon}\label{etalon}
+\chapter{Etalon}\label{etalon}
 	\section{Introduction}
 The etalon is an optical device made of two perfectly parallel semi-reflecting surfaces. It can be thought as a Fabry-P\'erot cavity which walls are fixed. This geometry can be implemented either with an air-based or a solid design. The first one consist in two surfaces separated by air, one of which usually can be moved via piezoelectric actuators. The second one is just made from a piece of glass (or other materials suitable for the desired application) with a partially reflecting coating covered facets (\cref{solidstate}). While the air based etalons make longer cavities, thus more precise, they are extremely delicate and cumbersome to manage, mostly because the two surfaces must be kept parallel within hundredths of wavelength. The solid state ones, on the other hand, are usually smaller and less performing, but way more robust and easier to use.
 
@@ -166,7 +166,7 @@ Since two contiguous maxima are separated by a phase of $2\pi$, we can do the ra
 \mathcal{F}\equiv\frac{2\pi}{\varepsilon}=\frac{\pi}{2}\sqrt{F}=\frac{\pi\sqrt{R}}{1-R}
 \label{finesse}
 \atem
-	\section{Etalon as a spectroscope (UNDER CONSTRUCTION)}\label{etalonspec}
+	\section{Etalon as a spectroscope}\label{etalonspec}
 It is possible to build a direct relationship between the angular separation of the rings and the wavelength $\lambda_0$ of the incident light.
 We put ourself under the approximation of nearly perpendicular incident light, so that
 $$\sin\theta'\simeq\theta'$$$$\sin\theta\simeq\theta$$
@@ -179,13 +179,26 @@ The small angles approximation also implies
 \end{align}
 These approximations being valid, we recall \cref{ordine}
 $$m=\frac{2n'}{\lambda_0}d\cos\theta'\quad\Rightarrow\quad m=\frac{2n'}{\lambda_0}d\left(1-\left(\frac{n'}{n}\right)^2\frac{\theta^2}{2}\right)$$
-Inverting this one we find
-NON SI CAPISCE DA DOVE LA TIRA FUORI E COME, CI SONO CONTI OSCURI [$\dots$]
-The angle for the p\textit{th} order is
+
+For a normal incident wave we have
+
+\mate
+m_0=\frac{2n'd}{\lambda_0}\equiv m_1+e
+\atem
+where we defined $m_1$ and $e$ as the integer and fractional part of $m_0$, respectively.
+
+Putting together the above equations we find 
+
+\begin{align}
+\theta&=\frac{1}{n}\sqrt{\frac{n'\lambda_0}{d}}\sqrt{\frac{2n'd}{\lambda_0}-m}\nonumber\\
+&=\frac{1}{n}\sqrt{\frac{n'\lambda_0}{d}}\sqrt{m_1-m+e}
+\end{align}
+
+Now, by redefining the integer part as $m_1-m=p-1$, we obtain the angle for the p\textit{th} order:
 \mate
 \theta_p=\frac{1}{n}\sqrt{\frac{n'\lambda_0}{d}}\sqrt{p-1+e}
 \atem
 and if we focus the rings onto a screen with a convergent lens, of focal ratio $f$, the diameter of the bright ring is
 \mate
-D^2_p=(2f\theta_p)^2=\frac{4n'\lambda_0f^2}{n^2d}(p-1+e)
+D^2_p=(2f\theta_p)^2=\frac{4n'\lambda_0f^2}{n^2d}(p-1+e).
 \atem
