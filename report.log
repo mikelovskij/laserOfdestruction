@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/TeX Live for SUSE Linux) (format=latex 2013.3.24)  12 SEP 2013 15:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/TeX Live for SUSE Linux) (format=latex 2013.3.24)  12 SEP 2013 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1465,4 +1465,4 @@ Here is how much of TeX's memory you used:
  831 hyphenation exceptions out of 8191
  52i,24n,92p,3583b,1143s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on report.dvi (52 pages, 208632 bytes).
+Output written on report.dvi (52 pages, 208664 bytes).
