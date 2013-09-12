@@ -1,9 +1,7 @@
 \chapter{The lock-in amplifier}\label{lokkin}
 	\section{Basic theory}
 
-
-
-A lock-in amplifer is a device which is useful for extracting a frequency modulated narrow band signal from a noisy environment by using a phase sensitive detector. The output will typically be a DC voltage which is proportional to the original signal amplitude. The device has two inputs as shown in \cref{lockin1}. One is the input signal that is to be measured, and the other is a reference. The reference should have the same frequency as the modulation frequency of the original signal. This signal is usually a sync-signal originating from the same source as the input signal modulator (in our experiment an optical chopper). 
+A lock-in amplifer is a device used to extract a frequency modulated narrow band signal from a noisy environment by using a phase sensitive detector. The output will typically be a DC voltage which is proportional to the original signal amplitude. The device has two inputs as shown in \cref{lockin1}. One is the input signal that is to be measured, the other is the frequency reference. The reference should have the same frequency as the modulation of the original signal. This signal is usually a sync-signal originating from the same source as the input signal modulator (in our experiment this is the optical chopper). 
 
 The input signal of the lock-in is first passed through an amplifier of gain $g$, which is adjustable and is used to control the sensitivity of the lock-in. The reference signal instead is led through a sine-former, i.e.  a block consisting of many components which transform the signal to ensure it has sinusoidal form and a specific predetermined amplitude.
 
@@ -27,7 +25,7 @@ V_{\mai{m}}&=K[t] g\cos[2\pi ft+\phi_{\mai{s}}]\cos[2\pi ft+\phi_{\mai{r}}]\nonu
 &=\frac{1}{2}K[t]g\left(\cos[\phi_{\mai{s}}-\phi_{\mai{r}}]+\cos[2\pi\cdot2ft+\phi_{\mai{s}}+ \phi_{\mai{r}}]\right)\label{mixer}
 \end{align}
 
-As can be seen in \cref{mixer},assuming the bandwidth of the input signal $K[t]$ is much smaller than the carrier frequency, the result consists of two frequency components. One at zero (DC), and one at the double of the carrier frequency. If the low pass filter is set correctly the double frequency component will be completely removed, and the output is therefore as stated by
+As can be seen in \cref{mixer}, assuming the bandwidth of the input signal $K[t]$ is much smaller than the carrier frequency, the result consists of two frequency components. One at zero (DC), and one at the double of the carrier frequency. If the low pass filter is set correctly the double frequency component will be completely removed, and the output is therefore as stated by
 \mate
 V_{\mai{out}}=\frac{1}{2}K[t]g\cos\left[\phi_{\mai{s}}-\phi_{\mai{r}}\right]
 \atem
@@ -36,9 +34,9 @@ We can see that the output is a DC voltage which is proportional to the original
 
 	\section{Dual lock-in amplifier}
 	In the single lock-in amplifier we just studied, the output signal not only depends on the amplitude of the original signal, but also 
-	on the phase difference between the modulation and the reference signal given to the amplifier, which could be unknown or unstable.
-	In order to solve such problem and to make things easier the dual lock-in amplifier was implemented.
-	The dual lock-in amplifier has instead two mixers with dedicated low pass filters. One of these mixers multiplies the reference and the input signal like before, and the other one multiplies the input signal with the reference phase shifted by 90\textdegree. \cref{lockin2} illustrates this principle.
+	on the phase difference between the modulation and the reference signal given to the amplifier, which in principle could be unknown or unstable.
+	In order to solve such a problem the dual lock-in amplifier was implemented.
+	The dual lock-in amplifier has two mixers with dedicated low pass filters. One of these mixers multiplies the reference and the input signal like in the single lock-in amplifier, while the other one multiplies the input signal with the reference phase shifted by 90\textdegree. \cref{lockin2} illustrates this principle.
 
 \begin{figure}[!hbt]\centering
 \includegraphics[width=\linewidth, draft=\foto]{eps/lockin2.eps}
@@ -64,9 +62,9 @@ No matter what the phase difference between the input and the reference is, the 
 
 	\section{Low-pass filter}
 
-The low pass filters in \cref{lockin1,lockin2} are supposed to remove the double frequency component in \cref{mixer}. In addition these filters may remove a lot of additional noise which unavoidably adds to the signal during the trasduction and trasmission of the signal. \cref{lockin3} shows such an example. Here the mixing process causes a shift in the spectrum such that the desired signal is shifted to $f=0$ (DC). The dotted line represents the frequency response of the filter, and should be multiplied with the input signal to give the output. All the noise which is not within the bandwidth of the filter is removed.
+The low pass filters in \cref{lockin1,lockin2} are supposed to remove the double frequency component in \cref{mixer}. In addition, these filters may remove a lot of additional noise which unavoidably adds to the signal during the elaboration and trasmission of the signal. \cref{lockin3} shows an example of why the low pass filter is useful. Here the mixing process causes a shift in the spectrum such that the desired signal is shifted to $f=0$ (DC). The dotted line represents the frequency response of the filter, and should be multiplied with the input signal to give the output. All the noise which is not within the bandwidth of the filter is removed.
 
-In most lock-in amplifiers the low-pass filter is adjustable through two parameters. One of them is the time constant $\tau$. If the input were to suddenly change, this is the time it would take before the output is adjusted to 63\% of this change. The second parameter is the number of such filters which influences the resulting cutoff slope. Between one and four filters with the same time constant $\tau$ can be cascaded to form a sharper filter.
+In most lock-in amplifiers the low-pass filter is adjustable through two parameters. One of them is the time constant $\tau$. If the input were to suddenly change, this is the time it would take before the output is adjusted to 63\% of this change. The second parameter is the number of such filters which influences the resulting cut-off slope. Between one and four filters with the same time constant $\tau$ can be cascaded to form a sharper filter.
 
 \begin{figure}[!hbt]\centering
 \includegraphics[width=\linewidth, draft=\foto]{eps/lockin3.eps}
