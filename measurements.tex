@@ -23,12 +23,12 @@ In doing this, we differ from the true experimental conditions in three aspects:
 
 In principle it's easy to correct the spectrum taken in air, in order to apply it to oxygen: in first approximation one has to deal just with a different sound velocity. On the other side, it is more difficult to take into account the acoustic and dynamic modifications the chamber undergoes for being open or closed, as well as for the pressure wave to be originated from a lateral point instead of a diffused volume within the chamber. For these reasons, this cannot be considered as a true spectrum for the chamber we actually used in the absorption measurement. It is nothing more than a useful starting point. Eventually the real resonance frequency had to be experimentally determined with a closed chamber full of oxygen excited from the laser. Also the frequency response of both the loudspeaker and the microphones were unknown, and this could in principle affect the shape of this plot. We looked in a range from 0 to 10 kHz, although we later observed that our chopper wouldn't be able to reach frequencies above few kHz.
 
-We located a clear peak at 1591 Hz, which can attributed to the first longitudinal mode of the chamber, assuming a length $l$ of the chamber slighty greater than the declared 10 cm$$l=\frac{343\mbox{ m/s}}{1591\mbox{ Hz}}\cdot\frac{1}{2}=10.78\mbox{ cm}$$.
+We located a clear peak at 1591 Hz, which can attributed to the first longitudinal mode of the chamber, assuming a length $l$ of the chamber slightly greater than the declared 10 cm$$l=\frac{343\mbox{ m/s}}{1591\mbox{ Hz}}\cdot\frac{1}{2}=10.78\mbox{ cm}$$.
 
 		\subsection{Closed chamber measurement}
-Starting from the open chamber datum, we injected \ce{O2} in the chamber and started to look for signal by chopping the laser at 1591 Hz. It was promptly clear that there would not be need to further seek for resonances, as the intensity of the signal was high enough even at 1591 Hz, without any correction due to the gas change. We thus decided to delay the search for the acoustic resonance peak in oxygen and proceed with the experiment, in order to save time and give more attention to other issues such as stabilizing the laser emission or look for the oxygen absorption peaks.
+Starting from the open chamber datum, we injected \ce{O2} in the chamber and began to look for signal by chopping the laser at 1591 Hz. It was promptly clear that there would not be need to further seek for resonances, as the intensity of the signal was high enough even at 1591 Hz, without any correction due to the gas change. We thus decided to delay the search for the acoustic resonance peak in oxygen and proceed with the experiment, in order to save time and give more attention to other issues such as stabilizing the laser emission or look for the oxygen absorption peaks.
 
-Later, at the end of the experiment, we decided that completeness required us to provide the value of maximum resonance with oxygen, even though our measurement were all taken at 1591 Hz. Since the mechanical chopper failed to follow the waveform generator even for the slowest frequency sweep, we couldn't take a spectrum. Changing the frequency by hand we found however the peak at 1512 Hz, where we expected it according to a sound speed in atmospheric pressure oxygen of 323 m/s and a chamber length of 10.78 cm$$f^{\mai{peak}}_{\ce{o2}}=\frac{323\mbox{ m/s}}{2\cdot10.77\mbox{ cm}}\simeq1512\mbox{ Hz.}$$
+Later, at the end of the experiment, we decided that completeness required us to provide the value of maximum resonance with oxygen, even though our measurement were all taken at 1591 Hz. Since the mechanical chopper failed to follow the waveform generator even for the slowest frequency sweep, we couldn't take a spectrum. Changing the frequency by hand we found however the peak at 1512 Hz, where we expected it according to a sound speed in atmospheric pressure oxygen of 323 m/s and a chamber length of 10.78 cm$$f^{\mai{peak}}_{\ce{o2}}=\frac{323\mbox{ m/s}}{2\cdot10.78\mbox{ cm}}\simeq1512\mbox{ Hz.}$$
 
 \section{Looking for the \texorpdfstring{\ce{O2}}{oxygen} peaks}\label{oxygen}
 The next step after setting up and optimizing the apparatus was trying to find the best measurement conditions to see the peak. This means to find the frequency of the \ce{O2} absorption peaks, trying the different acoustic resonance frequencies and changing the laser parameters (current, temperature and position of our piezoelectric actuators). 
@@ -49,7 +49,7 @@ We were able to measure absorption at various different frequencies, listed in \
 687.35 \\ \hline
 687.45 \\ \hline
 \end{tabular}
-\caption{Measured absorption frequencies for \ce{O2} at ambient pressure and temperature.}
+\caption{Measured absorption wavelengths for \ce{O2} at ambient pressure and temperature.}
 \label{oxypeaks}
 \end{table}
 
@@ -60,7 +60,7 @@ in order to see it again (or to find some other peak). We are going to discuss m
 \label{factorsinfluencingtheshapeofthepeaks}
 After having found some absorption peaks and approximately measured their wavelength using the spectrometer, we tried to acquire their shape as well. As seen in \cref{lasersource}, the piezoelectric tunability was too narrow to acquire one whole peak, so it was important to understand which section of the peak we were looking at. This information allowed us to acquire different points of the same absorption peak, by slightly modifying the output frequency of the laser. The frequency instability in time of the laser output was the biggest deal in doing these measurements. 
 
-As explained in \cref{factorshape}, the shape of the peaks was determined by many parameters. This means that we needed to control many of them (at least the three most important) at the same time. To do this we used a computer, together with a data acquisition board exploiting four analog inputs, and we were able to log for every single measurement:
+As explained in \cref{factorshape}, the shape of the peaks was determined by many parameters. This means that we needed to control all of them (or at least the three most important) at the same time. To do this we used a computer, together with a data acquisition board exploiting four analog inputs, and we were able to log for every single measurement:
 \begin{itemize}
 	\item the magnitude of the audio wave coming from the lock-in amplifier
 	\item the position of the piezoelectric actuator responsible for the rotation of the grating around the $z$ axis
@@ -86,7 +86,7 @@ In \cref{moltipicchi} we slightly changed one of the laser parameters: the diode
 \begin{figure}[!hptb]\centering
 \subfigure[Laser parameters: 29.06 $^\circ$C; 73.23 mA.\label{bevified}]{\includegraphics[width=\linewidth, height=9.5cm, draft=\foto]{eps/660s_third_normal.eps}} 
 \subfigure[Magnification of the previous plot.\label{magnified}]{\includegraphics[width=\linewidth, height=9.5cm, draft=\foto]{eps/660s_third_magni.eps}}
-\caption{In this measurement, the laser diode temperature is 0.1 $^\circ$C lower than \cref{primopicco}. We notice 3 different absorption wavelengths: 687.30, 687.35, 687.05 nm. Here are visible the deformations we studied in\cref{factorshape}}\label{moltipicchi}
+\caption{In this measurement, the laser diode temperature is 0.1 $^\circ$C lower than \cref{primopicco}. We notice 3 different absorption wavelengths: 687.30, 687.35, 687.05 nm. Here are visible the deformations we studied in \cref{factorshape}}\label{moltipicchi}
 \end{figure} 
 
 \medskip
@@ -124,7 +124,7 @@ This can be easily seen in \cref{hoppattern}, which shows both the wavelength of
 Since these measurement took quite a long time every sweep, doing repeated measurements most of time resulted in unmatchable data, because of the uncontrolled evolution we already mentioned. The influence of such uncontrolled factors exhibited however a random behaviour, so that, after some trials, we were able to get a unique \textquotedblleft lucky\textquotedblright measurement of 3 subsequent sweeps which matched almost perfectly. This is shown in \cref{3sweep}.
 
 All the other attempts, instead, resulted in severe changes of the resonance pattern between one sweep and another. Studying the pattern of the wavelength vs voltage graphic helps in realizing that this difference is not to be ascribed to the photoacoustic part of the experiment (oxygen concentration/pressure, laser alignment) but is rather due to a change in the laser emission wavelength pattern. \cref{3missweep,7sweeps} provide meaningful examples of this behaviour.
-The change in the wavelength pattern is better shown in \cref{focus}, where we will focus
+The change in the wavelength pattern is better shown in \cref{focus}, where we focused
 on shorter multiple sweeps around a single absorption peak.
 \begin{landscape}
 \begin{figure}[!bhtp]\centering
@@ -163,7 +163,7 @@ In both of these examples we see that we could not usually measure the "tunabili
 \label{multisweep}
 \end{figure}
 
-In order to better study how the voltage to wavelength output changed with time we plotted all the sweeps of \cref{multisweep1} on a voltage/intensity graphic, thus getting \cref{nonshiftedpeaks}, and subsequently shifted them by the voltage required to match the part of the peak which most likely corrisponded to the oxygen absorption peak (see \cref{factorsinfluencingtheshapeofthepeaks}), getting \cref{shiftedpeaks} as result.
+In order to better study how the voltage to wavelength output changed with time we plotted all the sweeps of \cref{multisweep1} on a voltage/intensity graphic, thus getting \cref{nonshiftedpeaks}, and subsequently shifted them by the voltage required to match the part of the peak which most likely corresponded to the oxygen absorption peak (see \cref{factorsinfluencingtheshapeofthepeaks}), getting \cref{shiftedpeaks} as result.
 
 \begin{figure}
 \subfigure[Same measurement as \cref{multisweep1}, but rearranging the data to split the 10 different sweeps.\label{nonshiftedpeaks}]{\includegraphics[width=\linewidth, height=9.5cm, draft=\foto]{eps/multiunmatched.eps}}

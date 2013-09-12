@@ -4,21 +4,21 @@
 The light emitted by a diode laser is often practically useless to an experimentalist because of several different reasons:
 \begin{itemize}
  \item greatly diverges in an oval shape pattern
- \item because of the small cavity of the laser it has a larger bandwith which means that diode lasers emit light over a broader range of wavelengths than other kinds of lasers
+ \item because of the small cavity of the laser it has a larger bandwidth which means that diode lasers emit light over a broader range of wavelengths than other kinds of lasers
  \item could have an unstable wavelength due to temperature, or current fluctuations.
 \end{itemize}
 
 The first problem makes necessary to collimate the output of the diode laser, that is, bend the diverging light through a lens (or several lenses) so that all the output goes in one direction. One can achieve this result by using a single lens as long as the laser is placed exactly at the focal  point of the lens one chooses. The focal point of a lens is also the point through which all light parallel to its normal axis will converge. Hence, if we place our diode laser at the focal point of our collimating lens all light from the diode laser that passes through the lens will exit parallel to the normal axis and all light that enters the face of the lens at normal incidence will be focused the diode laser.
 
 The broad linewidth of solitary diode laser often reduces their usefulness for spectroscopy applications. To overcome this problem several techniques have been developed, for example:
-\begin{enumerate}
+\begin{itemize}
 \item negative electronic feedback
 \item resonant optical feedback from a high-finesse optical cavity
 \item extended-cavity configurations
-\end{enumerate}
+\end{itemize}
 Among all these techniques that can be used to reduce the laser linewidth down to the kHz range, the extended-cavity configuration with grating feedback has become the most popular. It provides a simple mean to achieve a wide wavelength tuning range and a narrow linewidth.
 The external cavity could also solve the instability through optical feedback, severely reducing mode hoping.
-In our experiment we used an external cavity in Littrow cofiguration so we will focus on explaining how such a cavity and it's main components work.
+In our experiment we used an external cavity in Littrow configuration so we will focus on explaining how such a cavity and it's main components work.
 A schematic layout of the extended-cavity laser is outlined in \cref{grating}. The laser system consists of a diode laser as the active medium, a collimating lens and a diffraction grating. The external cavity is formed between the rear facet of the diode laser and the grating as a wavelength selective mirror. The laser frequency depends critically on the optical length of the cavity, which is sensitive to any changes in the refractive index of the cavity media (diode laser, lens, and air) and to changes in the physical cavity length.
 The collimation lens of the ECDL (Extended Cavity Diode Laser) is one critical part of attaining optical feedback. The second part of our system that allows optical feedback is the diffraction  grating. 
 
@@ -51,11 +51,8 @@ where $d$ is the spacing between reflective surfaces, $\theta$ is the angle of i
 \atem
 where $\theta_{\mai{m}}$ is the angle of the $m$th order diffracted beam, $N$ is the spatial frequency of the grating (units mm$^{-1}$), and $\theta_{\mai{i}}$ and $\lambda$ are the incident light angle and wavelength respectively.
 
-
-
 When monochromatic light impinges on a grating surface, it is diffracted into discrete directions.
-
-We can easily calulate the  separation between these directions by inverting /ref{gianfrancioschio}.
+We can easily calculate the  separation between these directions by inverting /ref{gianfrancioschio}.
 \mate
 \beta[\lambda]=\arcsin\left[\frac{m\lambda}{d} – \sin\alpha\right]
 \atem
@@ -65,8 +62,6 @@ When $m=0$, the grating acts as a mirror, and the wavelengths are not separated 
 \caption{Geometry of diffraction, for planar wavefronts.}
 \label{littrow4}
 \end{figure}
-
-
 
 \section{Littrow configuration ECDL}\label{Littrowsection}
 In the Littrow configuration for the external cavity, shown in \cref{littrow2}, the grating is aligned in way such that the first order diffraction from the grating is coupled directly back into the laser, while the zeroth-order diffraction is reflected as the output beam. The lasing wavelength is dependent on the angle of the incident laser beam with respect to the grating, otherwise known as the Littrow angle $\theta$.
@@ -91,16 +86,10 @@ There are 3 cavities which set up such configuration:
 
 The key to the Littrow configuration is the backcoupling of the first-order diffraction beam from the grating into the laser diode. Without this feedback, the Littrow laser cannot achieve single-mode emission and will lase at a wavelength set by the gain peak of the semiconductor active region. When the feedback beam is well aligned, interference fringes are expected in the output beam and the laser remains in single-mode despite small temperature and current changes.
 
-
-
-
-ORA CHE HO TOLTO E SPOSTATO LE RIPETIZ È UN PO' POCO PER UN PARAGRAFO A PARTE?
-
-
 	\section{Main sources of noise in a ECDL}
 The frequency of a solitary diode laser is sensitive to variations in the injection current and the junction temperature. This is mainly caused by changes in the refractive index of the active medium and in the optical gain. 
-These effects can be reduced in an ECDL but other many noise factors are introduced due to the instability of the optical lenght of the external cavity.
-We will now summarize the main factors which influence the optical lenght of the cavity.
+These effects can be reduced in an ECDL but other many noise factors are introduced due to the instability of the optical length of the external cavity.
+We will now summarize the main factors which influence the optical length of the cavity.
 
 The optical length of the collimating lens changes with temperature. This is caused by thermal expansion of the material and temperature dependence of the refractive index. Their effects on the laser frequency are described by the relationship 
 \mate
@@ -131,14 +120,6 @@ A transverse displacement along $x$ axis of the collimating lens with respect to
 \frac{d\nu_{\mai{g}}}{dT}=-\nu_{\mai{g}}\alpha_{\mai{g}}
 \label{displacement2}
 \end{align}
-where $f_{\mai{l}}$ is the focal length of the lens and $\theta$ is the angle between the grating normal and the incident beam, while $\nu_{\mai{g}}$ and $\alpha_{\mai{g}}$ are the cental frequency of the grating feedback and the grating thermal expansion coefficient respectively. The displacement of the lens can be caused, for example, by asymmetric thermal expansion relative to the optical axis or by mechanical vibration of the lens holder. 
+where $f_{\mai{l}}$ is the focal length of the lens and $\theta$ is the angle between the grating normal and the incident beam, while $\nu_{\mai{g}}$ and $\alpha_{\mai{g}}$ are the central frequency of the grating feedback and the grating thermal expansion coefficient respectively. The displacement of the lens can be caused, for example, by asymmetric thermal expansion relative to the optical axis or by mechanical vibration of the lens holder. 
 
 There are additional effects that influence mainly the short-term frequency stability of the laser: current- and PZT driver noise, mechanical vibrations, acoustic disturbances, and rapid changes in the refractive index of air caused by air flow. All of these factors have an effect on the length of the external cavity and, consequently, generate frequency modulation of the laser.
-
-
-
-
-
-
-
-

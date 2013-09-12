@@ -1,6 +1,6 @@
 \chapter{Etalon}\label{etalon}
 	\section{Introduction}
-The etalon is an optical device made of two perfectly parallel semi-reflecting surfaces. It can be thought as a Fabry-P\'erot cavity which walls are fixed. This geometry can be implemented either with an air-based or a solid design. The first one consist in two surfaces separated by air, one of which usually can be moved via piezoelectric actuators. The second one is just made from a piece of glass (or other materials suitable for the desired application) with a partially reflecting coating covered facets (\cref{solidstate}). While the air based etalons make longer cavities, thus more precise, they are extremely delicate and cumbersome to manage, mostly because the two surfaces must be kept parallel within hundredths of wavelength. The solid state ones, on the other hand, are usually smaller and less performing, but way more robust and easier to use.
+The etalon is an optical device made of two perfectly parallel semi-reflecting surfaces. It can be thought as a Fabry-P\'erot cavity which walls are fixed. This geometry can be implemented either with an air-based or a solid design. The first one consists in two surfaces separated by air, one of which usually can be moved via piezoelectric actuators. The second one is just made from a piece of glass (or other materials suitable for the desired application) with a partially reflecting coating covered facets (\cref{solidstate}). While the air based etalons make longer cavities, thus more precise, they are extremely delicate and cumbersome to manage, mostly because the two surfaces must be kept parallel within hundredths of wavelength. The solid state ones, on the other hand, are usually smaller and less performing, but way more robust and easier to use.
 
 Every time the impinging beam encounters one of the two optical surfaces the light is partially reflected and partially transmitted. Multiple reflections occur inside the two surfaces leading to an infinite number of rays departing from the interferometer in both the transmitted and reflected directions. Contiguous beams differ for a constant phase and this causes an interference pattern, as shown in \cref{etalonmonitor}.
 
@@ -13,7 +13,7 @@ Every time the impinging beam encounters one of the two optical surfaces the lig
 \hfill
 \begin{minipage}[t]{0.46\textwidth}\centering
 \includegraphics[width=\linewidth, height=5cm, draft=\foto]{eps/thering.eps}
-\caption{The etalon diffraction pattern seen through our videocamera.}
+\caption{The etalon diffraction pattern seen through our video camera.}
 \label{etalonmonitor}
 \end{minipage}
 \end{figure}
@@ -22,7 +22,7 @@ Every time the impinging beam encounters one of the two optical surfaces the lig
 To derive the phase difference between two adjacent beams, let's begin calculating the difference in their optical paths (\cref{fig:angoli}). We thus choose two parallel beams, such as $OB$ and $CD$, and draw a wavefront perpendicular to them, $AC$. 
 \begin{figure}[!htb]\centering
 \includegraphics[width=.8\linewidth, draft=\foto]{eps/angoli.eps}
-\caption{The impinging beam changes direction due to refraction index difference between the air and the glass, the angles $\theta$ and $\theta'$ being related to the refraction indices $n$ and $n'$ by Snell's law.}
+\caption{The impinging beam changes direction due to refraction index difference between the air and the medium, the angles $\theta$ and $\theta'$ being related to the refraction indices $n$ (air) and $n'$ (medium) by Snell's law.}
 \label{fig:angoli}
 \end{figure}
 The optical path difference between $A$ and $C$ is given by
@@ -130,7 +130,7 @@ The transmitted intensity is thus given by the constant input intensity value, m
 \caption{The Airy function peaks when the phase shift is an integer multiple of $2\pi$. As the finesse coefficient increases, the peaks become more sharp and their position is better defined.}
 \label{Airyplot}
 \end{figure}
-	\section{Interference pattern}
+	\section{Interference pattern}\label{interferencepattern}
 As is clear from \cref{Airyplot}, the interference maxima take place for $\Delta=2m\pi$, where $m$ is an integer representing the order of diffraction.
 From \cref{phase} we have
 \mate
@@ -161,7 +161,7 @@ If now we approximate $\sin\left(\varepsilon/4\right)\simeq\varepsilon/4$ we get
 \mate
 \varepsilon=\frac{4}{\sqrt{F}}
 \atem
-Since two contiguous maxima are separated by a phase of $2\pi$, we can do the ratio between the peaks separation and their width, getting a very important parameter which is called the \textit{finesse} of the etalon
+Two contiguous maxima are separated by the quantity known as \textit{free spectral range} (FSR). In the frequency domain its value depends on the device, and is actually one of the parameters characterizing an etalon. In the phase domain its value is always $2\pi$, by definition. Doing the ratio between the peaks separation and their width, one gets a very important parameter which is called the \textit{finesse} of the etalon
 \mate
 \mathcal{F}\equiv\frac{2\pi}{\varepsilon}=\frac{\pi}{2}\sqrt{F}=\frac{\pi\sqrt{R}}{1-R}
 \label{finesse}

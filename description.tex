@@ -1,6 +1,6 @@
 \chapter{Description of the apparatus}\label{chapter1}
 \section{General overview}
-The setup we used featured the typical photoacoustic experiment characteristics. There was a source of light, a laser in our case, impinging on the gas into a cavity. A mechanical chopper provided a modulation of the light in order to match a proper frequency of the cavity. The acoustic signal, detected by microphones, was filtered by a lock-in amplifier referenced with the chopping frequency. The light path was controlled trough optical elements such as mirrors, lenses and beam-splitters. 
+The setup we used featured the typical photoacoustic experiment characteristics. There was a source of light, a laser in our case, impinging on the gas into a cavity. A mechanical chopper provided a modulation of the light in order to match a proper frequency of the cavity. The acoustic signal, detected by microphones, was filtered by a lock-in amplifier referenced with the chopping frequency. The light path was controlled trough optical elements such as mirrors, lenses and beam-splitters (\cref{diagram}).
 \begin{figure}[!bhpt]\centering
 \includegraphics[width=\linewidth, draft=\foto]{eps/laser_diagram.eps}
 \caption{Diagram of the experimental apparatus.}
@@ -26,7 +26,9 @@ The data series were acquired with a computer, via a dynamic signal acquisition 
 \item \textit{Spectrum}, a labVIEW\textsuperscript{\texttrademark} virtual instrument installed on the laboratory PCs.
 \end{itemize}
  We shall now describe in more details the core elements of the apparatus.
-\section{The laser source}\label{lasersource}
+
+ 
+ \section{Laser source}\label{lasersource}
 We used an external cavity laser device, formed by the following elements:
 \begin{itemize}
 \item a single mode multi-quantum well \ce{AlGaInP}
@@ -35,7 +37,7 @@ We used an external cavity laser device, formed by the following elements:
 \item a temperature controller case\footnote{Thorlabs TCLDM9: \url{http://www.thorlabs.de/Thorcat/1900/TCLDM9-Manual.pdf}} to set the temperature of the diode. 
 \item an external cavity, i.e. a setup that feeds back the laser diode with the first diffraction order of a 1800 grooves/mm grating. Namely, we implemented the so called Littrow configuration (\cref{Littrowsection}). The external cavity allowed us to better select a given lasing mode, thus getting a smaller emission linewidth. The grating was put on a piezoelectric mechanical actuator\footnote{Thorlabs KC1-T-PZ/M: \url{http://www.thorlabs.de/Thorcat/2400/KC1-T-PZ_M-AutoCADPDF.pdf }}, which permitted nm-order adjustments of its position. Since a grating diffracts different frequencies at different angles, moving the grating we could control the frequency fed back to the laser and thus enhanced. This is how we got a fine tuning of the frequency, and how we were able to make the 2-3 GHz scan to see the absorption line (more on this in \cref{tuna}).
 \end{itemize} 
-\section{The acoustic chamber} 
+\section{Acoustic chamber} 
  The gas to analyze, pure \ce{O2} at atmospheric pressure, was contained in a brass chamber, featuring :
 \begin{itemize}
 	\item an internal cavity, about \mbox{10 cm} long, where the gas actually resonated. Other two smaller cavities, half as long, were present before and after the main cavity. Since we couldn't open the brass chamber, we had no way to accurately measure the dimensions and the position of the main cavity with respect to the other two ones. It should be noticed that our chamber had been recycled from another experiment and was not explicitly thought for the usage we do of it
@@ -44,4 +46,4 @@ We used an external cavity laser device, formed by the following elements:
 \end{itemize}
 
 \section{Reference arm}\label{referencearm}
-Once generated in the ECDL, the laser beam was split by a simple glass into two rays: one going through the chopper and entering the acoustic chamber, the other passing  through an etalon. The interference pattern (see \cref{etalon}) was monitored with a video camera. This was useful, since the the spectroscope resolution, as reported in \cref{shapeaks}, was too poor to detect the small laser frequency shifts due to fine tuning with the external cavity. The etalon instead could detect this shift as a variation of the diameter in the diffraction rings. Moreover, the PAL analogic video signal could be observed with an oscilloscope as well, to get a quantitative measurement of the rings movements thanks to the measurement functions of the instrument. The etalon allowed also to detect a multimodal emission much more immediately than the spectroscope.
+Once generated in the ECDL, the laser beam was split by a simple glass into two rays: one going through the chopper and entering the acoustic chamber, the other passing  through an etalon. The interference pattern (see \cref{etalon}) was monitored with a video camera. This was useful, since the the spectroscope resolution, as reported in \cref{tuna}, was too poor to detect the small laser frequency shifts due to fine tuning with the external cavity. The etalon instead could detect this shift as a variation of the diameter in the diffraction rings. Moreover, the PAL analogic video signal could be observed with an oscilloscope as well, to get a quantitative measurement of the rings movements thanks to the measurement functions of the instrument. With respect to the spectroscope, also, the etalon allowed a clearer and faster detection of multi-mode emission 
